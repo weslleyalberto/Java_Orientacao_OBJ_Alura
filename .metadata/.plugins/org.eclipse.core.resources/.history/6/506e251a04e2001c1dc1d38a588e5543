@@ -1,0 +1,25 @@
+package bytebank;
+
+public class Conta {
+		double saldo;
+		int agencia;
+		int numero;
+		String titular;
+	
+	public Conta(double saldo,int agencia, int numero,String titular) {
+		this.saldo = saldo;
+		this.agencia = agencia;
+		this.numero = numero;
+		this.titular = titular;
+	}
+	
+	public void deposita(double valor) {
+		
+	}
+	
+	@Override
+	public String toString() {
+		return "Saldo: " + this.saldo + "Titular: " + this.titular;
+	}
+	
+}

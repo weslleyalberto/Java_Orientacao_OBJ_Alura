@@ -1,0 +1,11 @@
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+		Funcionario funcionario = new Funcionario("Weslley Alberto","54545445",1500.99);
+		System.out.println(funcionario);
+		
+
+	}
+
+}

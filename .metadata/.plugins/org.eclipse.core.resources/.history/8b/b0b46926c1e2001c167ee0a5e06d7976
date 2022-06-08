@@ -1,0 +1,15 @@
+package bytebank;
+
+public class CriaConta {
+	public static void main(String[] ars) {
+		Conta conta = new Conta(500.59,141245,555555,"Weslley Alberto");
+		conta.agencia = 141245;
+		conta.saldo = 1500.59;
+		conta.titular = "Weslley Alberto";
+		System.out.println(conta.titular + " " + conta.agencia);
+		System.out.println(conta);
+		Conta segundaConta = conta;
+		System.out.println(segundaConta);
+		conta.saca(5000.0);
+	}
+}
